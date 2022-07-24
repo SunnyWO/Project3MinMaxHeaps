@@ -138,14 +138,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Proj3CensusTest.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\Proj3Test.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Proj3CensusTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Proj3Test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="MMHeap.cpp" />
     <ClCompile Include="QHeap.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\CensusCity.h" />
-    <ClInclude Include="..\..\..\..\Downloads\Int4MMH.h" />
+    <ClInclude Include="..\..\..\..\Downloads\CensusCity.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Int4MMH.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="MMHeap.h" />
     <ClInclude Include="QHeap.h" />
   </ItemGroup>
