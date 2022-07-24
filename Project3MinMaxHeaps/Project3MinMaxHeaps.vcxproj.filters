@@ -21,9 +21,6 @@
     <ClCompile Include="QHeap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Proj3CensusTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Proj3Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

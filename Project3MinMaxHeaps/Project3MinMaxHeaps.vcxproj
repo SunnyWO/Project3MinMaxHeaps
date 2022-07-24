@@ -139,7 +139,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MMHeap.cpp" />
-    <ClCompile Include="Proj3CensusTest.cpp" />
     <ClCompile Include="Proj3Test.cpp" />
     <ClCompile Include="QHeap.cpp" />
   </ItemGroup>
