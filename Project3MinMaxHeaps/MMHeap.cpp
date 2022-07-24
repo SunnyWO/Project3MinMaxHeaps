@@ -1,10 +1,19 @@
 #include "MMHeap.h"
+#include <vector>
 using namespace std;
 	
 	template <typename T>
 	T** pData;
 	size_t length;
+	
+	template <typename T>
+	vector<T> initial;
 
+	template <typename T>
+	MMHeap<T>::MMHeap() :pData(nullptr), length(0) {};
+
+	template <typename T>
+	MMHeap<T>::MMHeap(const int& initialSize) :length(0) {};
 
 	template <typename T>
 	void MMHeap<T>::insert(T* px) {

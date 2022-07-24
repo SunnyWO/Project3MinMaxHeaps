@@ -138,10 +138,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\Proj3CensusTest.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Proj3Test.cpp" />
     <ClCompile Include="MMHeap.cpp" />
     <ClCompile Include="QHeap.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\CensusCity.h" />
+    <ClInclude Include="..\..\..\..\Downloads\Int4MMH.h" />
     <ClInclude Include="MMHeap.h" />
     <ClInclude Include="QHeap.h" />
   </ItemGroup>
